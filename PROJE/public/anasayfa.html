@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../private/anasayfa.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>anasayfa</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <a href="/Anasayfa/anasayfa.html">
+          <img src="../resimler/logo.png" alt="" />
+        </a>
+      </div>
+      <div class="linkler">
+        <ul id="main">
+          <li><a>ANASAYFA</a></li>
+          <li>
+            <a onclick="sepetlink()">SEPETİM</a>
+            <ul id="ulSepet">
+              <!-- sepetimdekiler -->
+            </ul>
+          </li>
+          <li><a href="hakkımızda.html">HAKKIMIZDA</a></li>
+          <li><a href="giris.html">GİRİŞ YAP</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- arama bası -->
+    <div class="arama">
+      <div class="ara">
+        <input
+          type="text"
+          name="AramaAdı"
+          id="txtTaskName"
+          placeholder="Aranacak Kelimeyi Gir..."
+        />
+        <button type="button" class="btnAra" id="btnAra">ARA</button>
+      </div>
+    </div>
+    <!-- arama bitti -->
+    <section onclick="OnClick()" class="section">
+      <ul class="urunler" id="urunlerim">
+        <!-- liste elemanları -->
+      </ul>
+    </section>
+
+    <!-- acılan panel bas -->
+    <div id="pencere"></div>
+    <!-- acılan panel son -->
+
+    <script src="../private/script.js"></script>
+
+    <div class="footer">
+      <div class="footer-head"><h1>İLETİŞİM</h1></div>
+      <div class="metin">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste
+          obcaecati minima aspernatur, illum quod assumenda, quaerat praesentium
+          voluptatum voluptatem delectus unde commodi, animi aperiam itaque
+          consectetur voluptas? Tempore, ipsam.
+        </p>
+        <p>
+          <strong>
+            İletişime geçmek için aşşağıdaki uygulamalardan mesaj
+            atabilirsiniz</strong
+          >
+          ...
+        </p>
+      </div>
+      <div class="iletisim">
+        <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+        <a href=" https://www.instagram.com">
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#"> <i class="fa-brands fa-google"></i></a>
+      </div>
+    </div>
+    <div class="sepetAciklama" id="sepetAciklama"><p></p></div>
+  </body>
+</html>

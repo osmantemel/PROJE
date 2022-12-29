@@ -1,0 +1,68 @@
+* {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.container {
+  display: inline-block;
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  border-radius: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .baslik {
+  background-color: white;
+  height: 100px;
+  text-align: center;
+}
+.container .baslik h1 {
+  background-color: white;
+  padding-top: 25px;
+  color: bla;
+  font-size: 40px;
+}
+.container .menu .form {
+  display: block;
+  text-align: center;
+  height: 350px;
+  background-color: white;
+  padding-top: 0px;
+}
+.container .menu .form .txt {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+.container .menu .form .txt:hover {
+  background-color: antiquewhite;
+}
+.container .menu .form .link {
+  background-color: white;
+  margin-top: 25px;
+}
+.container .menu .form .link a {
+  text-align: left;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.container .menu .form button {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.container .menu .form button:hover {
+  cursor: pointer;
+  background-color: rgb(61, 53, 53);
+  height: 55px;
+}
